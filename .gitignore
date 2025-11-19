@@ -1,26 +1,15 @@
-# ROS2 build files
-build/
-install/
-log/
-
-# Colcon
+# ROS2 and colcon
+/build/
+/install/
+/log/
 .colcon/
 
 # Python cache
-__pycache__/
 *.pyc
+__pycache__/
 
-# VSCode
-.vscode/
-
-# JetBrains
-.idea/
-
-# Mac junk
+# OS junk
 .DS_Store
-
-# ROS2 launch logs
-*.db3
 
 # Temporary files
 *.swp
